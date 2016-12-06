@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>S&V Wedding</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+  
+  <script>
+      function initMap() {
+        var uluru = {lat: 18.515834, lng: 83.200864};
+        var map = new google.maps.Map(document.getElementById('salurmap'), {
+          zoom: 10,
+		  scrollwheel: false,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3SoDsjCvs8WNaeK_HuC2iPKhTzqubG0Y&callback=initMap">
+   </script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">&#10084; Sudha Weds Vinay</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">&#10084;Home</a></li>
+        <li><a href="#">&#10084;When</a></li>
+        <li><a href="#">&#10084;Where</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">The joining of hearts and souls. &#10084;</h3>
+  <img src="images\logo.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h2>Sudha Weds Vinay</h2>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">When &#10084;</h3><br>
+  <p>The pleasure of your company is requested at the marriage uniting two families.</p>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Mark the Date. <b>February 1st, 2017 (Wednesday)</b></p>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Muhurtham: Next Day(Thursday) <b>early hours 1.35AM</b></p>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Dinner: February 1st <b>7.00 PM Onwards...</b></p>
+    </div>
+  </div>
+  <div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-2">
+      <img src="images\hearts.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+	<div class="col-sm-1"></div>
+	
+	<div class="col-sm-1"></div>
+    <div class="col-sm-2"> 
+      <img src="images\Wedding1.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+	<div class="col-sm-1"></div>
+	
+	<div class="col-sm-1"></div>
+    <div class="col-sm-2"> 
+      <img src="images\dinner.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+	<div class="col-sm-1"></div>
+  </div>
+</div>
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Where &#10084;</h3>
+  <p>
+  Choose a seat not a side. We’re all family once the knot is tied.</p>
+  <p><b>Venue:</b><br/>
+	Indoor Stadium, opp bus complex,<br/>
+	Salur, Vizianagaram,<br/>
+	Andhra Pradesh
+  </p>
+</div>
+
+<div id="salurmap">map here</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Gravitation is not responsible for people falling in love. 
+- Albert Einstein</a></p> 
+</footer>
+
+</body>
+</html>
